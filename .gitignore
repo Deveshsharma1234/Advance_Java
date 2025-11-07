@@ -1,1 +1,73 @@
-/.metadata/
+# ========================================================
+# Core Java / Spring Boot + STS (Eclipse) Git Ignore
+# ========================================================
+
+# === STS / Eclipse specific ===
+.metadata/
+.classpath
+.project
+.settings/
+bin/
+target/
+.buildpath
+
+# === IntelliJ IDEA (if you ever open project there) ===
+.idea/
+*.iml
+*.iws
+out/
+
+# === Maven build ===
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# === Gradle build ===
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# === Logs and temporary files ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+
+# === OS generated ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# === Java related ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Spring Boot runtime files ===
+application.properties~
+application.yml~
+.env
+*.env
+
+# === Testing ===
+.test/
+reports/
+surefire-reports/
+test-output/
+
+# === VS Code (if you ever open it there) ===
+.vscode/
+
+# === Other ===
+node_modules/
+dist/
+
+# Ignore compiled Java class files
+*.class
+
+# Ignore build directories
+bin/
+target/
