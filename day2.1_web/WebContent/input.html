@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>User Form</title>
+</head>
+<body>
+
+<form action="displayData" method="post">
+    
+    <!-- Name input -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <br><br>
+
+    <!-- Favourite Colors -->
+    <label for="color">Favourite Color:</label>
+    <select id="color" name="color">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+        <option value="purple">Purple</option>
+    </select>
+    <br><br>
+
+    <!-- Radio buttons for browser -->
+    <p>Select your browser:</p>
+    <input type="radio" id="chrome" name="browser" value="Chrome">
+    <label for="chrome">Google Chrome</label><br>
+
+    <input type="radio" id="firefox" name="browser" value="Firefox">
+    <label for="firefox">Mozilla Firefox</label><br>
+
+    <input type="radio" id="edge" name="browser" value="Edge">
+    <label for="edge">Microsoft Edge</label><br><br>
+
+    <!-- Submit -->
+    <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
